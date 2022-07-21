@@ -1,0 +1,36 @@
+:host {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin: 12px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  width : 250 px;
+  margin: 12px;
+}
+
+
+.worker-description {
+  max-width: 960px;
+}
+

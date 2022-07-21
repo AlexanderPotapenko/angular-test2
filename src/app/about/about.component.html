@@ -1,0 +1,8 @@
+<div class="container">
+<h2>{{ 'aboutus' | translate }}</h2>
+</div>>
+<ul>
+    <li *ngFor="let worker of workers">
+    <app-worker [worker]="worker"></app-worker>
+    </li>
+</ul>

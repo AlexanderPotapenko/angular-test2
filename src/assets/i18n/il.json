@@ -1,0 +1,17 @@
+{    
+	"title": "מבחן חזית",
+	"colledge":{
+		"Loader message": "טעינה....",
+		"About": "מידע",
+		"Courses": "קורסים",
+		"Teachers": "מורים",
+		"Contacts": "אנשי קשר"
+	},
+	"menu":{
+		"home":"דף הבית",
+		"College":"מִכלָלָה",
+		"About":"מידע"
+	},
+	"aboutus":"מידע",
+	"collegetext":"מִכלָלָה"
+}

@@ -1,4 +1,17 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+  <header>
+    <div class="toolbar">
+      <div class="langmenu">
+        <a  (click)="SetLanguage('en')" routerLink=""> En </a>
+        <a  (click)="SetLanguage('il')" routerLink=""> He </a>
+        </div>  
+    <div class="menu">
+        <a  routerLink=""> {{ 'menu.home' | translate }} </a>
+        <a  routerLink="/college"> {{ 'menu.College' | translate }} </a>
+        <a  routerLink="/about"> {{ 'menu.About' | translate }} </a>
+        </div>
+      </div>
+    </header>  
+<section>
+  <div class = "spacer"></div>>
+  <router-outlet></router-outlet> 
+</section>

@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="column">
+            <img src="{{ worker.photo }}" alt="{{ worker.name }}"/>
+    </div>
+    <div class="column">
+        <h3>{{ worker.name }}</h3>
+    </div>
+    <div class="column">
+        <div [innerHTML]="worker?.about" class="worker-description"></div>
+    </div>
+</div>

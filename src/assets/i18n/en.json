@@ -1,0 +1,17 @@
+{   
+	"title": "frontend-test" ,
+	"colledge":{
+		"Loader message": "Loader message",
+		"About": "About",
+		"Courses": "Courses",
+		"Teachers": "Teachers",
+		"Contacts": "Contacts"
+	},
+	"menu":{
+		"home":"Home",
+		"College":"College",
+		"About":"About"
+	},
+	"aboutus":"About us",
+	"collegetext":"College"
+}
